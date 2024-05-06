@@ -18,12 +18,70 @@ Latest Version Android Studio
 ```
 /*
 Program to print the text “optionmenu”.
-Developed by:
-Registeration Number :
+Developed by: SRIVARSHAN S
+Registeration Number :212221040163
 */
+```
+```
+ACTIVITY_MAIN.XML
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+```
+OPTION.XML
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Item 1" />
+    <item android:title="Item 2" />
+    <item android:title="Item 3" />
+</menu>
+```
+```
+MAINACTIVITY.JAVA
+package com.example.menuoption;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+
+public class MainActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater m = getMenuInflater();
+        m.inflate(R.menu.option,menu);
+        return true;
+    }
+}
 ```
 
 ## OUTPUT
+![image](https://github.com/srivarshan123/menuinandroid/assets/103185133/cc7cb4e8-8157-4a3e-a33c-e63f8edb7f2b)
+![image](https://github.com/srivarshan123/menuinandroid/assets/103185133/2f83c33f-b3e7-4ad9-97e0-50163fc5164a)
+
+
 
 
 
