@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## OUTPUT
 ![image](https://github.com/srivarshan123/menuinandroid/assets/103185133/cc7cb4e8-8157-4a3e-a33c-e63f8edb7f2b)
+![image](https://github.com/srivarshan123/menuinandroid/assets/103185133/852673e7-98a5-476a-a3d5-4be77cbc479d)
 ![image](https://github.com/srivarshan123/menuinandroid/assets/103185133/3bad51e1-655a-45ed-afd5-bdb6f095456c)
 
 
